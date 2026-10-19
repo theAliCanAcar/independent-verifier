@@ -1,0 +1,28 @@
+{
+  "name": "independent-verifier",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Run application-owned checks and record artifact-bound evidence.",
+  "main": "independent-verifier.js",
+  "exports": {
+    ".": "./independent-verifier.js"
+  },
+  "files": [
+    "independent-verifier.js",
+    "artifact-freshness-guard.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "independent-verifier"
+  ],
+  "license": "MIT"
+}
